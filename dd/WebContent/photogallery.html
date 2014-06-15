@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Photo Gallery</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- CSS ADD in Style in Server -->
+<link rel="stylesheet" href="css/photogallery.css" type="text/css">
+<link rel="stylesheet" href="css/colorbox.css" type="text/css">
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+</head>
+
+<body>
+
+
+	<div class="contents"
+		style="margin-top: -40px; z-index: 100; position: relative;">
+		<div class="contentbox">
+			<div class="theader">
+				<h3>Photo Gallery</h3>
+			</div>
+			<!-- source code is from here! I did it justify with the style in server
+   ,so if you use style in server just copy the code from here  ------------------------>
+			<a href="photogallery_album.html" style="color:white;text-decoration: none; margin-left:2em;">Back to albums</a>
+			<ul class="gallery">
+				<li>
+					<a class="group1" href="images/test.jpg"><span></span><img src="images/test.jpg" alt="image" /></a>
+					<em>test</em>
+				</li>
+				<li>
+					<a class="group1" href="images/test.jpg"><span></span><img src="images/test.jpg" alt="image" /></a>
+					<em>test</em>
+				</li>
+				<li>
+					<a class="group1" href="images/test.jpg"><span></span><img src="images/test.jpg" alt="image" /></a>
+					<em>test</em>
+				</li>
+				<li>
+					<a class="group1" href="images/test.jpg"><span></span><img src="images/test.jpg" alt="image" /></a>
+					<em>test</em>
+				</li>
+				<li>
+					<a class="group1" href="images/test.jpg"><span></span><img src="images/test.jpg" alt="image" /></a>
+					<em>test</em>
+				</li>
+
+
+			</ul>
+
+
+			<script>
+				$(document).ready(function() {
+					$(".group1").colorbox({
+						rel : 'group1',
+						transition : "fade",
+						slideshow : true
+					});
+				});
+			</script>
+			<!-- End here ------------------------>
+		</div>
+	</div>
+</body>
+</html>
