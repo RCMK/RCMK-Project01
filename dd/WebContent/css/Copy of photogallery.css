@@ -1,0 +1,48 @@
+.photogallery div {
+	background-color: rgb(0, 0, 0);
+	border-width: 1px;
+	border-style: solid;
+	border-color: white white rgb(0, 0, 0);
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-image: none;
+	display: inline-block;
+	ine-height: 0;
+	list-style: none outside none;
+	margin: 5px;
+	overflow: hidden;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 5px 5px 5px 5px;
+}
+
+.photogallery div a {
+	display: inline-block;
+	position: relative;
+}
+
+.photogallery a img {
+	ine-height: 0;
+	list-style: none outside none;
+	border-radius: 5px 5px 5px 5px;
+	width: 180px;
+}
+
+.photogallery a span {
+	border-top: 0px none;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	height: 20px;
+	overflow: hidden;
+	width: 100%;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+	bottom: 0px;
+	max-height: 1.5em;
+	left: 0px;
+	line-height: 150%;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+}

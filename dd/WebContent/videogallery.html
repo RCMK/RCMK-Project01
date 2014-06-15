@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Video Gallery</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- CSS ADD in Style in Server -->
+<script src="js/jquery.youtubevideogallery.js"></script>
+<link rel="stylesheet" href="css/youtube-video-gallery.css" type="text/css"
+	rel="stylesheet">
+<link rel="stylesheet" href="test/test.css" type="text/css"
+	rel="stylesheet">
+<!--[if IE lt 9]-->
+    <link href="css/youtube-video-gallery-legacy-ie.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+
+	<div class="contents"
+		style="margin-top: -40px; z-index: 100; position: relative;">
+		<div class="contentbox">
+			<div class="theader">
+				<h3>Contact Us</h3>
+			</div>
+			<!-- source code is from here! I did it justify with the style in server
+   ,so if you use style in server just copy the code from here  ------------------------>
+			<ul class="youtube-video-gallery" style="padding: 15px">
+				<li><a href="http://www.youtube.com/watch?v=UCOC1YwNwZw">Call
+						me gordie</a></li>
+				<li><a href="http://www.youtube.com/watch?v=CjgT8Af1kGc">Bad
+						scooting</a></li>
+				<li><a href="http://www.youtube.com/watch?v=4psVnsYlBok">Good
+						scooting</a></li>
+				<li><a href="http://www.youtube.com/watch?v=05Cgtg_N4eI">Knitting</a></li>
+				<li><a href="http://www.youtube.com/watch?v=xPr4g7o46DY">Sunrise
+						yoga</a></li>
+				<li><a href="http://www.youtube.com/watch?v=pocEg6a6ZpM">YUI
+						Roundtable</a></li>
+				<li><a href="http://www.youtube.com/watch?v=ishBOmjHoXE">Sporting
+						moments</a></li>
+				<li><a href="http://www.youtube.com/watch?v=j_OyHUqIIOU">Big
+						red balloon</a></li>
+				<li><a href="http://www.youtube.com/watch?v=0Yww2VhbFL8">Tango!</a></li>
+			</ul>
+
+			<script>
+				$(document).ready(function() {
+					$("ul.youtube-video-gallery").youtubeVideoGallery();
+				});
+			</script>
+
+
+
+			<!-- End here ------------------------>
+		</div>
+	</div>
+</body>
+</html>
