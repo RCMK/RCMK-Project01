@@ -82,6 +82,6 @@
     background-color: rgba(236, 240, 241,0.8);
 }
 .thumbnail img{
-    margin-top: 25px;
     border-radius: 5px;
+    margin: 5px auto 5px auto;
 }
